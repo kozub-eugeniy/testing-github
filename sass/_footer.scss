@@ -1,0 +1,191 @@
+footer {
+  width: 100%;
+  height: auto;
+  background: url("images/footer-bg.png") no-repeat 50% 50% / cover;
+  padding: 100px 0;
+  @include break-point(md){
+    padding: 50px 0;
+  }
+  h2 {
+    color: white;
+    font-family: "Open Sans";
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 115px;
+    @include break-point(md){
+      margin-bottom: 45px;
+    }
+  }
+  h3 {
+    color: white;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 20px;
+  }
+  p {
+    color: white;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    opacity: 0.5;
+  }
+  ul.social {
+    display: inline-block;
+    margin: 40px 0 20px;
+    li {
+      display: inline-block;
+      margin-right: 15px;
+      &:last-child {margin: 0;}
+      a {
+        display: inline-block;
+        width: 46px;
+        height: 46px;
+        border-radius: 50%;
+        text-align: center;
+        &:hover {
+          background: #fff;
+        }
+        .fa {
+          color: white;
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 1;
+          position: relative;
+          margin-top: 10px;
+        }
+      }
+      .facebook {
+        background: #3b5997;
+        &:hover {
+          .fa {
+            color: #3b5997;
+          }
+        }
+      }
+      .google-plus {
+        background: #e44c41;
+        &:hover {
+          .fa {
+            color: #e44c41;
+          }
+        }
+      }
+      .twitter {
+        background: #3ec2f3;
+        &:hover {
+          .fa {
+            color: #3ec2f3;
+          }
+        }
+      }
+    }
+  }
+  span, .phone, .e-mail {
+    display: block;
+    color: #bface2;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+  form {
+    width: 100%;
+    display: inline-block;
+    @include break-point(sm){
+      width: 400px;
+      @include centering-x;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+    @include break-point(xs){
+      width: 260px;
+    }
+    input[type='text'],
+    input[type='email'],
+    textarea {
+      padding-left: 20px;
+      background: #fff;
+      border-radius: 5px;
+      color: #c1c1c1;
+      font-family: "Open Sans";
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1;
+      outline: none;
+      border: none;
+    }
+    textarea {
+      padding-top: 20px;
+      width: 100%;
+      height: 180px;
+      resize: none;
+      @include break-point(sm){
+        height: 100px;
+      }
+    }
+    input[type='text'],
+    input[type='email'] {
+      height: 44px;
+      width: 47%;
+      margin: 0 0 30px 0;
+      @include break-point(md){
+        width: 100%;
+        display: block;
+      }
+      @include break-point(sm){
+        margin-bottom: 20px;
+      }
+      @include break-point(xs){
+        height: 34px;
+        font-size: 14px;
+      }
+      &:hover, &:active, &:focus {
+        outline: none;
+        border: none;
+      }
+    }
+    input[type='email'] {
+      float: right;
+    }
+    input[type='submit']{
+      display: inline-block;
+      color: white;
+      font-family: "Open Sans";
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 1;
+      float: right;
+      background: #49cbcd;
+      border-radius: 5px;
+      padding: 14px 50px;
+      outline: none;
+      border: none;
+      margin-top: 30px;
+      @include break-point(sm){
+        float: none;
+        text-align: center;
+      }
+      @include break-point(xs){
+        padding: 10px 40px;
+        font-size: 20px;
+      }
+      &:hover, &:active, &:focus {
+        outline: none;
+        border: none;
+        background: #fff;
+        color: #49cbcd;
+      }
+    }
+  }
+  .sm-tc {
+    @include break-point(sm){
+      text-align: center;
+    }
+  }
+}

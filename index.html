@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Author Test</title>
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/png">
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slick.css">
+    <link rel="stylesheet" href="slick-theme.css">
+
+    <script src="js/jquery-2.2.2.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/app.js"></script>
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <!--[if lte IE 9]>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-sm-6">
+                    <div class="logo">
+                        <a href="/">
+                            <h1>Author</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-6">
+                    <ul class="header-nav hidden-xs">
+                        <li><a class="loc" href="#home">Home</a></li>
+                        <li><a class="loc" href="#service">Service</a></li>
+                        <li><a class="loc" href="#portfolio">Portfolio</a></li>
+                        <li><a class="loc" href="#team">Team</a></li>
+                        <li><a class="loc" href="#blog">Blog</a></li>
+                        <li><a class="loc" href="#footer">Contacts</a></li>
+                    </ul>
+                    <div class="modal-nav">
+                        <a href="#" data-toggle="modal" data-target="#menuModal"><i class="fa fa-bars"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+	<!-- First Section -->
+    <section class="home-1" id="home">
+        <div class="container-fluid p0">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="5000">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active" style="background: url('images/home-img.png') no-repeat 50% 50% / cover">
+                        <div class="carousel-caption">
+                            <h2>This is a main heading</h2>
+                            <h3>Lorem Ipsum is simply dummy text<br> of the printing</h3>
+                            <a href="#" class="more">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="item" style="background: url('images/home-img.png') no-repeat 50% 50% / cover">
+                        <div class="carousel-caption">
+                            <h2>This is a main heading</h2>
+                            <h3>Lorem Ipsum is simply dummy text<br> of the printing</h3>
+                            <a href="#" class="more">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="item" style="background: url('images/home-img.png') no-repeat 50% 50% / cover">
+                        <div class="carousel-caption">
+                            <h2>This is a main heading</h2>
+                            <h3>Lorem Ipsum is simply dummy text<br> of the printing</h3>
+                            <a href="#" class="more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"></a>
+                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"></a>
+            </div>
+
+        </div>
+    </section>
+	<!-- Second Section -->
+    <section class="home-2" id="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="service-item">
+                        <div class="service-ic">
+                            <i class="fa fa-rocket" aria-hidden="true"></i>
+                        </div>
+                        <h4>Custom Designs</h4>
+                        <p>Lorem Ipsum is simply dummy text of<br> the printing and typesetting industry.<br> Lorem Ipsum has been</p>
+                        <a href="#" class="read">Read More</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="service-item">
+                        <div class="service-ic">
+                            <i class="fa fa-desktop" aria-hidden="true"></i>
+                        </div>
+                        <h4>Web Design</h4>
+                        <p>Lorem Ipsum is simply dummy text of<br> the printing and typesetting industry.<br> Lorem Ipsum has been</p>
+                        <a href="#" class="read">Read More</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="service-item">
+                        <div class="service-ic">
+                            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+                        </div>
+                        <h4>Blog Pages</h4>
+                        <p>Lorem Ipsum is simply dummy text of<br> the printing and typesetting industry.<br> Lorem Ipsum has been</p>
+                        <a href="#" class="read">Read More</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="service-item">
+                        <div class="service-ic">
+                            <i class="fa fa-tablet" aria-hidden="true"></i>
+                        </div>
+                        <h4>Mobile friendly</h4>
+                        <p>Lorem Ipsum is simply dummy text of<br> the printing and typesetting industry.<br> Lorem Ipsum has been</p>
+                        <a href="#" class="read">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="home-3" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <h2>Portfolio</h2>
+            </div>
+            <div class="portfolio-item" id="photo-item1">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4">
+                        <a href="#">
+                            <img src="images/portf-1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <a href="#">
+                            <img src="images/portf-2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <a href="#">
+                            <img src="images/portf-3.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" id="photo-item2">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4">
+                        <a href="#">
+                            <img src="images/portf-4.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <a href="#">
+                            <img src="images/portf-5.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <a href="#">
+                            <img src="images/portf-6.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="more-portfolio">See all works</a>
+        </div>
+    </section>
+    <section class="home-4" id="team">
+        <div class="container">
+            <div class="row">
+                <h2>The Team</h2>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="service-item">
+                        <div class="service-ic">
+                            <a href="#">+</a>
+                        </div>
+                        <h4>Adrian Thomas</h4>
+                        <h5>CEO & Founder</h5>
+                        <p>Lorem Ipsum is simply dummy text of<br> the printing and typesetting industry.<br> Lorem Ipsum has been</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="service-item">
+                        <div class="service-ic">
+                            <a href="#">+</a>
+                        </div>
+                        <h4>Narate Ketram</h4>
+                        <h5>Creative Director</h5>
+                        <p>Lorem Ipsum is simply dummy text of<br> the printing and typesetting industry.<br> Lorem Ipsum has been</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="service-item">
+                        <div class="service-ic">
+                            <a href="#">+</a>
+                        </div>
+                        <h4>Fernando Comet</h4>
+                        <h5>CEO & Founder</h5>
+                        <p>Lorem Ipsum is simply dummy text of<br> the printing and typesetting industry.<br> Lorem Ipsum has been</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="service-item">
+                        <div class="service-ic">
+                            <a href="#">+</a>
+                        </div>
+                        <h4>Adedayo Saheed</h4>
+                        <h5>Creative Director</h5>
+                        <p>Lorem Ipsum is simply dummy text of<br> the printing and typesetting industry.<br> Lorem Ipsum has been</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="home-5" id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="package">
+                        <h4>Basic</h4>
+                        <h5>$5.01/ Month</h5>
+                        <ul>
+                            <li>Lorem ipsum</li>
+                            <li>Dolor sit amet, consect</li>
+                            <li>Adipiscing elit</li>
+                            <li>Proin commodo turpis</li>
+                            <li>lacus pulvinarvel</li>
+                            <li>Prnare nisi pretium</li>
+                        </ul>
+                        <a href="#" class="buy">Buy now</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="package">
+                        <h4 class="pro">Pro</h4>
+                        <h5>$10.01/ Month</h5>
+                        <ul>
+                            <li>Lorem ipsum</li>
+                            <li>Dolor sit amet, consect</li>
+                            <li>Adipiscing elit</li>
+                            <li>Proin commodo turpis</li>
+                            <li>lacus pulvinarvel</li>
+                            <li>Prnare nisi pretium</li>
+                        </ul>
+                        <a href="#" class="buy">Buy now</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="package">
+                        <h4>Premium</h4>
+                        <h5>$20.01/ Month</h5>
+                        <ul>
+                            <li>Lorem ipsum</li>
+                            <li>Dolor sit amet, consect</li>
+                            <li>Adipiscing elit</li>
+                            <li>Proin commodo turpis</li>
+                            <li>lacus pulvinarvel</li>
+                            <li>Prnare nisi pretium</li>
+                        </ul>
+                        <a href="#" class="buy">Buy now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="home-6">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="slider-slick responsive">
+                        <div>
+                            <h2>What Clients Say</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+                                Lorem Ipsum has been the industry's standard dummy text ever<br>
+                                since the 500s, when an unknown printer took a galley of type.</p>
+                            <span>John Dove</span>
+                        </div>
+                        <div>
+                            <h2>What Clients Say</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+                                Lorem Ipsum has been the industry's standard dummy text ever<br>
+                                since the 500s, when an unknown printer took a galley of type.</p>
+                            <span>John Dove</span>
+                        </div>
+                        <div>
+                            <h2>What Clients Say</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+                                Lorem Ipsum has been the industry's standard dummy text ever<br>
+                                since the 500s, when an unknown printer took a galley of type.</p>
+                            <span>John Dove</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <h2>Contact Us</h2>
+                <div class="col-xs-12 col-sm-push-6 col-sm-6">
+                    <form action="#" method="post">
+                        <input type="text" name="name" placeholder="Name">
+                        <input type="email" name="email" placeholder="Email">
+                        <textarea name="message" placeholder="Message"></textarea>
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
+                <div class="col-xs-12 col-sm-pull-6 col-sm-6 sm-tc">
+                    <h3>Get in touch with us</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting<br>
+                        industry. Lorem Ipsum has been the industry's</p>
+                    <ul class="social">
+                        <li>
+                            <a href="#" class="facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="twitter" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="google-plus" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                    <span>Posted by Dospel & GanjaParker</span>
+                    <a href="tel:" class="phone">+XX-XXXXX-XXXX-XX</a>
+                    <a href="mailto:info@mail.com" class="e-mail">info@mail.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade" id="menuModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                <div class="modal-body">
+                    <ul class="header-nav">
+                        <li><a class="loc" href="#home">Home</a></li>
+                        <li><a class="loc" href="#service">Service</a></li>
+                        <li><a class="loc" href="#portfolio">Portfolio</a></li>
+                        <li><a class="loc" href="#team">Team</a></li>
+                        <li><a class="loc" href="#blog">Blog</a></li>
+                        <li><a class="loc" href="#footer">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

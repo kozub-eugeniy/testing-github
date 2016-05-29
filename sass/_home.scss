@@ -1,0 +1,453 @@
+.home-1 {
+  width: 100%;
+  height: 570px;
+  padding: 0;
+  margin-top: 105px;
+  @include break-point(md){
+    margin-top: 88px;
+    height: 400px;
+  }
+  @include break-point(sm){
+    height: 300px;
+  }
+  .p0 {
+    width: 100%;
+    height: 100%;
+  }
+  .carousel {
+    width: 100%;
+    height: 100%;
+    .carousel-inner {
+      height: 100%;
+      .item {
+        height: 100%;
+        .carousel-caption {
+          top: 140px;
+          right: 0;
+          left: 0;
+          @include break-point(md){
+            top: 90px;
+          }
+          @include break-point(sm){
+            top: 50px;
+          }
+          h2 {
+            text-shadow: 0.1px 1px 0 rgba(0, 0, 0, 0.16);
+            color: white;
+            font-family: "Open Sans";
+            font-size: 63px;
+            font-weight: 600;
+            line-height: 1;
+            margin-bottom: 45px;
+            @include break-point(md){
+              font-size: 56px;
+              margin-bottom: 35px;
+            }
+            @include break-point(sm){
+              font-size: 30px;
+              margin-bottom: 25px;
+            }
+            @include break-point(xs){
+              font-size: 25px;
+            }
+          }
+          h3 {
+            color: white;
+            font-family: "Open Sans";
+            font-size: 23px;
+            font-weight: 400;
+            line-height: 1.5;
+            text-shadow: 0.1px 1px 0 #e4b671;
+            @include break-point(sm){
+              font-size: 18px;
+            }
+            @include break-point(xs){
+              font-size: 14px;
+            }
+          }
+          .more {
+            display: inline-block;
+            text-align: center;
+            margin-top: 55px;
+            color: white;
+            font-family: "Open Sans";
+            font-size: 26px;
+            font-weight: 600;
+            line-height: 1;
+            border: 3px solid white;
+            border-radius: 3px;
+            padding: 18px 35px;
+            @include transition( color 0.9s ease);
+            &:hover {
+              color: #000;
+            }
+            @include break-point(md){
+              margin-top: 35px;
+              padding: 15px 30px;
+            }
+            @include break-point(sm){
+              margin-top: 25px;
+              font-size: 20px;
+            }
+            @include break-point(xs){
+              font-size: 18px;
+              padding: 10px 15px;
+            }
+          }
+        }
+      }
+    }
+    .carousel-control {
+      display: inline-block;
+      width: 51px;
+      height: 51px;
+      //background: transparent;
+      opacity: 0.7;
+      text-shadow: none;
+      position: absolute;
+      top: 50%;
+      @include transition(opacity 0.9s ease);
+      &:hover {
+        opacity: 1;
+      }
+      @include break-point(xs){
+        width: 30px;
+        height: 30px;
+      }
+    }
+    .carousel-control.right {
+      background: url("images/arrow.png") no-repeat 50% 50%;
+      @include transform(translateY(-50%) rotate(180deg));
+      right: 30px;
+      @include break-point(sm){
+        right: 10px;
+      }
+      @include break-point(xs){
+        background-size: cover;
+      }
+    }
+    .carousel-control.left {
+      background: url("images/arrow.png") no-repeat 50% 50%;
+      left: 30px;
+      @include transform(translateY(-50%));
+      @include break-point(sm){
+        left: 10px;
+      }
+      @include break-point(xs){
+        background-size: cover;
+      }
+    }
+  }
+}
+.home-2 {
+  .service-item {
+    text-align: center;
+    @include break-point(sm){
+      width: 400px;
+      @include centering-x;
+    }
+    @include break-point(xs){
+      width: 280px;
+    }
+    .service-ic {
+      display: inline-block;
+      width: 105px;
+      height: 105px;
+      border-radius: 50%;
+      border: 3px solid #49cbcd;
+      background: transparent;
+      text-align: center;
+      margin: 50px 0;
+      .fa {
+        color: #49cbcd;
+        font-family: FontAwesome;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 1;
+        margin-top: 30px;
+      }
+    }
+    h4 {
+      color: #4e525d;
+      font-family: "Open Sans";
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 1;
+      margin-bottom: 30px;
+    }
+    p {
+      color: #4e525d;
+      font-family: "Open Sans";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.8;
+      br {
+        display: none;
+      }
+    }
+    .read {
+      display: inline-block;
+      color: white;
+      font-family: "Open Sans";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1;
+      padding: 8px 15px;
+      background-color: #49cbcd;
+      border-radius: 4px;
+      margin-top: 20px;
+      &:hover {
+        background: #485460;
+      }
+    }
+  }
+}
+.home-3 {
+  background: #f1f1f1;
+  h2 {
+    color: #4e525d;
+    font-family: "Open Sans";
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 65px;
+    @include break-point(md){
+      margin-bottom: 35px;
+    }
+  }
+  .portfolio-item {
+    margin-bottom: 30px;
+    a {
+      display: inline-block;
+      width: 100%;
+      height: 315px;
+      @include break-point(lg){
+        height: 285px;
+      }
+      @include break-point(md){
+        height: 220px;
+      }
+      @include break-point(sm){
+        width: 250px;
+        height: 250px;
+        @include centering-x;
+        margin-bottom: 15px;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .more-portfolio {
+    display: inline-block;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1;
+    background-color: #49cbcd;
+    border-radius: 3px;
+    padding: 10px 30px;
+    @include centering-x;
+    margin-top: 40px;
+    &:hover {
+      background: #485460;
+    }
+  }
+}
+.home-4 {
+  @extend .home-2;
+  @extend .home-3;
+  background: #fff;
+  .service-item {
+    .service-ic {
+      width: 200px;
+      height: 200px;
+      background: #eeeef0;
+      border: none;
+      position: relative;
+      a {
+        display: none;
+        color: #f46d6d;
+        font-family: "Open Sans";
+        font-size: 85px;
+        font-weight: 700;
+        line-height: 1;
+        @include centering;
+      }
+      &:hover {
+        a {
+          display: block;
+        }
+      }
+    }
+
+    h4 {
+      margin-bottom: 5px;
+    }
+    h5 {
+      font-size: 14px;
+      font-weight: 400;
+      margin-bottom: 30px;
+      line-height: 1;
+    }
+  }
+}
+.home-5 {
+  @extend .home-3;
+  .package {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background: #f8f9fb;
+    @include break-point(sm){
+      width: 400px;
+      @include centering-x;
+      margin-bottom: 20px;
+    }
+    @include break-point(xs){
+      width: 280px;
+    }
+    h4 {
+      color: white;
+      font-family: "Open Sans";
+      font-size: 26px;
+      font-weight: 400;
+      line-height: 2;
+      background: #485460;
+    }
+    .pro {
+      background: #49cbcd;
+    }
+    h5 {
+      color: #485460;
+      font-family: "Open Sans";
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 2.2;
+      background: #f8f9fb;
+    }
+    ul {
+      background: #fff;
+      li {
+        color: #8c9299;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 3;
+        border-bottom: 1px solid #ecf0f1;
+      }
+    }
+    .buy {
+      display: inline-block;
+      text-align: center;
+      margin: 30px 0;
+      color: white;
+      font-family: "Open Sans";
+      font-size: 17px;
+      font-weight: 600;
+      line-height: 1;
+      background: #788492;
+      border-radius: 3px;
+      padding: 8px 45px;
+      &:hover {
+        background: #49cbcd;
+      }
+    }
+  }
+}
+.home-6 {
+  padding: 100px 0;
+  @include break-point(md){
+    padding: 60px 0;
+  }
+  @include break-point(sm){
+    padding: 50px 0;
+  }
+  @include break-point(xs){
+    padding: 30px 0;
+  }
+  .slider-slick {
+    .slick-list {
+      .slick-track {
+        .slick-slide {
+          text-align: center;
+          h2 {
+            color: #4e525d;
+            font-family: "Open Sans";
+            font-size: 42px;
+            font-weight: 400;
+            line-height: 1;
+            margin: 50px 0;
+            @include break-point(md){
+              font-size: 40px;
+              margin: 30px 0;
+            }
+            @include break-point(sm){
+              font-size: 30px;
+            }
+          }
+          p {
+            line-height: 1;
+            color: #4e525d;
+            font-size: 20px;
+            margin-bottom: 40px;
+            @include break-point(md){
+              font-size: 16px;
+              margin-bottom: 30px;
+            }
+            @include break-point(sm){
+              font-size: 13px;
+            }
+            br {
+              @include break-point(sm){
+                display: none;
+              }
+            }
+          }
+          span {
+            color: #9a8faf;
+            font-size: 22px;
+          }
+        }
+      }
+    }
+    .slick-arrow {
+      width: 25px;
+      height: 25px;
+      opacity: 1;
+      z-index: 1000;
+      @include break-point(sm){
+        position: absolute;
+        top: auto;
+        bottom: 0;
+        @include transform(translate(0));
+      }
+      &:before {
+        opacity: 1;
+        color: #000;
+        content: "";
+        display: inline-block;
+        width: 12px;
+        height: 23px;
+        background: url("images/sm-arrow.png") no-repeat 50% 50%;
+      }
+    }
+    .slick-next {
+      @include break-point(lg){
+        right: 0;
+      }
+      &:before {
+        @include transform(rotate(180deg));
+      }
+    }
+    .slick-prev {
+      @include break-point(lg){
+        left: 0;
+      }
+    }
+  }
+}

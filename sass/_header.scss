@@ -1,0 +1,108 @@
+header {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 15;
+  background: #fff;
+  padding: 30px 0;
+  @include break-point(md){
+    padding: 20px 0;
+  }
+  @include transition(all 0.4s ease);
+  .logo {
+    display: inline-block;
+    a {
+      h1 {
+        color: #44c0c2;
+        font-family: "Lobster 1.4";
+        font-size: 43px;
+        font-weight: 400;
+        line-height: 1;
+        margin: 0;
+      }
+    }
+  }
+  .header-nav {
+    display: inline-block;
+    padding: 15px 0 13px;
+    float: right;
+    @include break-point(lg){
+      width: 100%;
+    }
+    li {
+      display: inline-block;
+      text-align: center;
+      a {
+        font-family: "Open Sans";
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1;
+        color: #484c55;
+        padding: 40px 20px;
+        @include break-point(lg){
+          padding: 40px 10px;
+        }
+        @include break-point(md){
+          font-size: 14px;
+          padding: 30px 5px;
+        }
+        &:hover {
+          color: #49cbcd;
+          background: #f8f9fb;
+          border-bottom: 3px solid #49cbcd;
+        }
+      }
+    }
+  }
+  .modal-nav {
+    display: none;
+    @include break-point(sm){
+      display: inline-block;
+      float: right;
+      margin: 5px 20px 0 0;
+    }
+    .fa-bars {
+      font-size: 36px;
+      color: #49cbcd;
+      line-height: 1;
+    }
+  }
+}
+header.sticky {
+  padding: 10px 0;
+  background: rgba(0,0,0, 0.5);
+  .logo {
+    a {
+      h1 {
+        //margin: 20px 0;
+      }
+    }
+  }
+  .header-nav {
+    li {
+      a {
+        color: #fff;
+        padding: 23px 20px;
+        @include break-point(lg){
+          padding: 23px 10px;
+        }
+        @include break-point(md){
+          padding: 23px 5px;
+        }
+        &:hover {
+          padding: 23px 20px;
+          color: #000;
+          border-bottom: none;
+          @include break-point(lg){
+            padding: 23px 10px;
+          }
+          @include break-point(md){
+            padding: 23px 5px;
+          }
+        }
+      }
+    }
+  }
+}
