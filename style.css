@@ -1112,29 +1112,29 @@ body {
   min-height: 640px;
 }
 
-/* line 40, sass/style.scss */
+/* line 41, sass/style.scss */
 section {
   padding: 50px 0 100px;
   overflow: hidden;
 }
 @media only screen and (max-width: 991px) {
-  /* line 40, sass/style.scss */
+  /* line 41, sass/style.scss */
   section {
     padding: 50px 0;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 40, sass/style.scss */
+  /* line 41, sass/style.scss */
   section {
     padding: 30px 0;
   }
 }
 
-/* line 52, sass/style.scss */
+/* line 53, sass/style.scss */
 .modal {
   background: rgba(0, 0, 0, 0.7);
 }
-/* line 54, sass/style.scss */
+/* line 55, sass/style.scss */
 .modal .modal-dialog {
   width: 380px !important;
   height: auto;
@@ -1148,53 +1148,53 @@ section {
   transform: translate(-50%, -50%);
   margin: 0;
 }
-/* line 62, sass/style.scss */
+/* line 63, sass/style.scss */
 .modal .modal-dialog .modal-content {
   padding: 25px 40px 30px;
   background: transparent;
   box-shadow: none;
   border: none;
 }
-/* line 67, sass/style.scss */
+/* line 68, sass/style.scss */
 .modal .modal-dialog .modal-content .close {
   position: absolute;
   right: 0;
   top: -5px;
   opacity: 1;
 }
-/* line 72, sass/style.scss */
+/* line 73, sass/style.scss */
 .modal .modal-dialog .modal-content .close .fa {
   color: #fff;
   opacity: 1;
   font-size: 40px;
 }
-/* line 78, sass/style.scss */
+/* line 79, sass/style.scss */
 .modal .modal-dialog .modal-content .modal-body {
   padding: 0 !important;
 }
-/* line 80, sass/style.scss */
+/* line 81, sass/style.scss */
 .modal .modal-dialog .modal-content .modal-body .header-nav {
   display: inline-block;
   width: 100%;
   text-align: center;
 }
-/* line 84, sass/style.scss */
+/* line 85, sass/style.scss */
 .modal .modal-dialog .modal-content .modal-body .header-nav li {
   display: block;
   margin-bottom: 15px;
 }
-/* line 87, sass/style.scss */
+/* line 88, sass/style.scss */
 .modal .modal-dialog .modal-content .modal-body .header-nav li:last-child {
   margin: 0;
 }
-/* line 88, sass/style.scss */
+/* line 89, sass/style.scss */
 .modal .modal-dialog .modal-content .modal-body .header-nav li a {
   color: #fff;
   font-size: 30px;
   line-height: 1;
 }
 
-/* line 100, sass/style.scss */
+/* line 101, sass/style.scss */
 .modal.fade .modal-dialog {
   width: 380px !important;
   height: auto;
@@ -1210,7 +1210,7 @@ section {
   padding: 0 !important;
 }
 @media only screen and (max-width: 479px) {
-  /* line 100, sass/style.scss */
+  /* line 101, sass/style.scss */
   .modal.fade .modal-dialog {
     width: 300px !important;
   }
